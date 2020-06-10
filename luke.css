@@ -1,19 +1,62 @@
+body{
+	margin: 0px;
+	font-family: "Banschrift condensed", Helvetica, serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+h2{
+	font-family: Algerian;
+}
 header{
 	text-align: center;
 	background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/brash1901-photo.jpg);
-	padding: 80px;
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 header h1{
 	color: yellow;
 	font-size: 60px;
+
 }
 
 header img{
 	border-radius: 150px;
-	width: 400px;
+	width: 300px;
+	border: 5px inset black;
 }
 
-body{
-	margin: 0px;
+
+
+main{
+	text-align: center;
+	margin: 20px auto;
+	max-width: 800px;
+	padding: 50px 20px;
+	background-color: #D58209;
+}
+
+main img{
+	max-width: 100%;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	opacity: 50%;
+}
+
+footer{
+	background-color: black;
+	color: yellow;
+	text-align: left;
+}
+
+footer a{
+	color: yellow;
+	opacity: 50%;
 }
