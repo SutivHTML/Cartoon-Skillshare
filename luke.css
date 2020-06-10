@@ -1,0 +1,19 @@
+header{
+	text-align: center;
+	background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/brash1901-photo.jpg);
+	padding: 80px;
+}
+
+header h1{
+	color: yellow;
+	font-size: 60px;
+}
+
+header img{
+	border-radius: 150px;
+	width: 400px;
+}
+
+body{
+	margin: 0px;
+}
